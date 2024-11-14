@@ -35,3 +35,5 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+/learn-terraform-azure/.terraform.lock.hcl
+/learn-terraform-azure/credentials.json
