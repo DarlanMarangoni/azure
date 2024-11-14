@@ -14,7 +14,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "rg" {
-  name     = "dev-rg"
+resource "azurerm_resource_group" "rg-dev" {
+  name     = "rg-dev"
   location = "westus2"
 }
